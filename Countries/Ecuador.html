@@ -1,0 +1,90 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="boxstyle.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script>
+  $(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+  </script>
+</head>
+<body>
+  <section id="Top"></section>
+    <a href="#Top" class="return">&uarr; Return</a>
+  <a href="#Communication" class="nav">Communication</a>
+  <a href="#TableManners" class="nav">Table Manners</a>
+  <a href="#Misc" class="nav">Miscellaneous</a>
+
+  <a id="Communication"></a>
+  <h2>Communication</h2>
+  <ul>
+    <li>The most common greeting is a handshake with direct eye contact and a smile.
+  </li>
+    <li>While shaking hands, use the appropriate greeting for the time of day: "buenos dias"(good morning), "buenas tardes" (good afternoon), or "buenas noches" (good evening).
+  </li>
+    <li>People that are close greet in a much more tactile manner; men embrace and pat each other on the shoulder (called an "abrazo"), and women kiss once on the right cheek.
+  </li>
+    <li>Always let the Ecuadorian determine when to move to this level of formality.
+  </li>
+    <li>Always refer to people by the appropriate honorific title (Se&ntilde;or or Se&ntilde;ora) and their surname.
+  </li>
+    <li>In general, only close friends or family use first names. Once someone uses your first name, it is a sign that you may also do so.
+
+   </li>
+    <li>It is impolite to point at someone. Ecuadorians may point by puckering or pursing their lips.
+  </li>
+    <li>Holding out a hand, as though to shake hands, and twisting it back and forth means "no."
+  </li>
+    <li>Yawning in public is rude.
+  </li>
+    <li>Fidgeting with hands and feet is distracting and considered impolite.
+  </li>
+  </ul>
+
+  <a id="TableManners"></a>
+  <h2>Table Manners </h2>
+  <ul>
+
+    <li> Ecuadorians enjoy meal times, and conversation is lively. Dinners are considered social events, and business should not be discussed. Stay for conversation after the meal is finished. It is considered impolite to leave right away.
+  </li>
+   <li>The host says "buen provecho" ("enjoy" or "have a good meal") as an invitation to start eating.
+  </li>
+    <li>The host makes the first toast. The most common toast is "Salud!" (health).
+   </li>
+    <li>When you lift your glass, look at the person being toasted.
+  </li>
+    <li>When guests are invited to a restaurant, the host pays for the meal </li>
+  </ul>
+
+
+  <a id="Misc"></a>
+  <h2>Miscellaneous</h2>
+  <h3>Gifts</h3>
+  <ul>
+    <li>Ecuadorians give gifts for birthdays, Christmas, or New Year as well as religious events in a person&#39;s life.
+   </li>
+    <li>A young girl&#39;s 15th birthday is considered a special date and is much celebrated.
+  </li>
+    <li>If invited to an Ecuadorian home, bring flowers, good quality spirits, pastries, or imported sweets for the hosts.
+  </li>
+  <li>If you know the person well, perfume is an excellent gift.</li>
+    <li>Gifts are generally opened when received.
+  </li>
+
+  </ul>
+
+  </body>
+  </html>

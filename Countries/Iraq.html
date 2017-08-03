@@ -1,0 +1,78 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="boxstyle.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script>
+  $(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+  </script>
+</head>
+<body>
+  <section id="Top"></section>
+    <a href="#Top" class="return">&uarr; Return</a>
+<a href="#Communication" class="nav">Communication</a>
+<a href="#TableManners" class="nav">Table Manners</a>
+<a href="#Misc" class="nav">Miscellaneous</a>
+
+
+
+<a id="Communication"></a>
+<h2>Communication</h2>
+<ul>
+  <li>The standard Arabic/Islamic greeting is "asalaamu alaikum" (peace be with you) to which the response is "wa alaikum salaam" (and peace be unto you). </li>
+
+  <li> Good friends of the same sex may greet each other with a handshake and a kiss on each cheek (starting with the right). </li>
+
+  <li>Expect to be introduced to each person individually at a small social function. At a large function, you may introduce yourself.</li>
+
+<li>The need to save face and protect honour means that showing emotions is seen negatively. Displays of anger are a serious no-no. If you must show disapproval, it is always best to do so in a one-to-one, quietly and with tact.
+</li>
+
+</ul>
+
+<a id="TableManners"></a>
+<h2>Table Manners </h2>
+<ul>
+  <li> Iraqi table manners are relatively formal.
+</li>
+  <li>If the meal is on the floor, sit cross-legged or kneel on one knee. Never let your feet touch the food mat.
+</li>
+  <li>Use the right hand for eating and drinking.
+</li>
+  <li>It is considered polite to leave some food on your plate when you have finished eating.
+</li>
+
+</ul>
+
+
+<a id="Misc"></a>
+<h2>Miscellaneous</h2>
+<h3>Gifts</h3>
+<ul>
+  <li>If you are invited to an Iraqi home, bring a box of cookies, pastries, or a box of chocolates. A fruit basket is also appreciated. Flowers are being given more and more, but only to a hostess.
+</li>
+  <li>If a man must give a gift to a woman, he should say that it is from his wife, mother, sister, or some other female relation.
+</li>
+  <li>Gifts are given with two hands.
+</li>
+  <li>Gifts are generally not opened when received.
+</li>
+
+</ul>
+
+</body>
+</html>

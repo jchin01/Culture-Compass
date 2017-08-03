@@ -1,0 +1,82 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="boxstyle.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script>
+  $(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+  </script>
+</head>
+<body>
+  <section id="Top"></section>
+    <a href="#Top" class="return">&uarr; Return</a>
+  <a href="#Communication" class="nav">Communication</a>
+  <a href="#TableManners" class="nav">Table Manners</a>
+  <a href="#Misc" class="nav">Miscellaneous</a>
+
+  <a id="Communication"></a>
+<h2>Communication</h2>
+<ul>
+  <li>A handshake with direct eye contact and a welcoming smile is standard.
+</li>
+  <li>Maintaining eye contact is crucial as it indicates interest.
+</li>
+  <li>When shaking hands, use the appropriate greeting for the time of day - "buenos dias", "buenas noches", or "buenas tardes".
+</li>
+  <li>Until you get to know someone better, it is best to avoid talking about politics, religion, and relations with Haiti.
+</li>
+  <li>Humor and laughter play a big role in communicating. Dominicans tend to be quite happy people.
+</li>
+  <li> Dominicans tend to talk very quickly and loudly and use their hands a great deal when speaking.
+</li>
+  <li>People beckon one another by extending an arm and making a scratching motion with their fingers.
+</li>
+  <li>Many Dominicans will point by puckering their lips in the direction or person they are referring to.
+</li>
+ <li>Wrinkling or scrunching up of your nose usually means, "Huh" or "what?".
+</li>
+
+</ul>
+
+<a id="TableManners"></a>
+<h2>Table Manners </h2>
+<ul>
+
+  <li>The most common toast is "salud" (to your health). </li>
+ <li> Start eating only after the host says, "Buen provecho!". </li>
+  <li>Knives and forks can be used U.S. style (switching) or European style (keeping the fork and knife in the same hands throughout the entire meal).</li>
+  <li>When the meal is finished, the knife and fork are laid parallel to each other across the plate. If you put both utensils down on the plate for any real length of time, it is a sign to the waitstaff that you are finished, and your plate may be taken away from you. </li>
+  <li>At the table, pass all dishes to your left. </li>
+
+</ul>
+
+
+<a id="Misc"></a>
+<h2>Miscellaneous</h2>
+<h3>Gifts</h3>
+<ul>
+  <li>If invited to dinner at a Dominican&#39;s home, bring a gift such as chocolates or pastries.
+</li>
+  <li>Avoid gifts that are black or purple. They are considered mourning colours.
+</li>
+  <li>Gifts are opened when received.
+</li>
+
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="boxstyle.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script>
+  $(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+  </script>
+</head>
+<body>
+  <section id="Top"></section>
+    <a href="#Top" class="return">&uarr; Return</a>
+<a href="#Communication" class="nav">Communication</a>
+<a href="#TableManners" class="nav">Table Manners</a>
+<a href="#Misc" class="nav">Miscellaneous</a>
+
+
+
+<a id="Communication"></a>
+<h2>Communication</h2>
+<ul>
+  <li>The basic greeting is a handshake and a hello or salutation appropriate for the time of day.</li>
+
+  <li> Eye contact denotes trust and is maintained during a greeting. It is customary to shake hands with older children.
+
+</li>
+
+  <li>Greetings tend to be warm and friendly and often turn into conversations.</li>
+ <li> They use stories and anecdotes to relay information and value a well-crafted message. How you speak says a lot about you in Ireland.</li>
+  <li>Generally speaking, they do not like confrontation and prefer to avoid conflict which they attempt to avoid by being humorous and showing good manners.
+</li>
+
+<li> The Irish are uncomfortable with loud, aggressive, and arrogant behavior.
+</li>
+<li>A "Reverse V for victory" gesture is considered obscene.
+</li>
+</ul>
+
+<a id="TableManners"></a>
+<h2>Table Manners </h2>
+<ul>
+  <li>Table manners are relatively relaxed and informal.
+ </li>
+
+  <li>Table manners are Continental, i.e. the fork is held in the left hand and the knife in the right while eating.
+</li>
+  <li>Do not rest your elbows on the table although your hands should remain visible and not be in your lap.
+</li>
+  <li>Offer to help with clearing the dishes after a meal.
+</li>
+</ul>
+
+
+<a id="Misc"></a>
+<h2>Miscellaneous</h2>
+<h3>Gifts</h3>
+<ul>
+  <li>If giving flowers, do not give lilies as they are used at religious festivities. Do not give white flowers as they are used at funerals.</li>
+  <li>Gifts are usually opened when received.</li>
+</ul>
+
+</body>
+</html>

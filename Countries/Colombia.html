@@ -1,0 +1,81 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="boxstyle.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script>
+  $(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+  </script>
+</head>
+<body>
+  <section id="Top"></section>
+    <a href="#Top" class="return">&uarr; Return</a>
+<a href="#Communication" class="nav">Communication</a>
+<a href="#TableManners" class="nav">Table Manners</a>
+<a href="#Misc" class="nav">Miscellaneous</a>
+
+<a id="Communication"></a>
+<h2>Communication</h2>
+<ul>
+  <li>Men shake hands with direct eye contact. Women often grasp forearms rather than shaking hands.
+
+</li>
+  <li>While shaking hands, use the appropriate greeting for the time of day: "buenos dias" (good day), "buenas tardes" (good afternoon), or "buenas noches" (good evening/night).
+</li>
+  <li>Once a friendship has developed, greetings become warmer and a lot more hands on - men will embrace and pat each other on the shoulder (known as an "abrazo") and women kiss once on the right cheek.
+ </li>
+  <li>The father&#39;s surname is listed first and is the one used in conversation.
+</li>
+  <li>Always refer to people by the appropriate honorific title and their surname.
+</li>
+
+</ul>
+
+<a id="TableManners"></a>
+<h2>Table Manners </h2>
+<ul>
+  <li>Wait to be seated by the host.</li>
+  <li>Hands should be kept visible when eating. Do not rest elbows on the table.
+
+</li>
+  <li> The host will say "buen provecho" (enjoy or have a good meal) as an invitation to start eating.
+</li>
+  <li>It is polite to try everything you are given.
+</li>
+  <li>Do not use a toothpick at the table.
+</li>
+</ul>
+
+
+<a id="Misc"></a>
+<h2>Miscellaneous</h2>
+<h3>Gifts</h3>
+<ul>
+  <li>When going to a Colombian&#39;s home, bring fruit, a potted plant, or quality chocolates for the hostess.
+</li>
+  <li>Flowers should be sent in advance.
+</li>
+  <li>Do not give lilies or marigolds as they are used at funerals. Roses are liked.
+</li>
+  <li>If you are going to a girl&#39;s 15th birthday, gold is the usual gift.
+</li>
+  <li>Wrapped gifts are not opened when received.
+</li>
+</ul>
+
+</body>
+</html>

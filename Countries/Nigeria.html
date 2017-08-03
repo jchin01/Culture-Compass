@@ -1,0 +1,69 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="boxstyle.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script>
+  $(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+  </script>
+</head>
+<body>
+  <section id="Top"></section>
+    <a href="#Top" class="return">&uarr; Return</a>
+<a href="#Communication" class="nav">Communication</a>
+<a href="#TableManners" class="nav">Table Manners</a>
+<a href="#Misc" class="nav">Miscellaneous</a>
+
+<a id="Communication"></a>
+<h2>Communication</h2>
+<ul>
+  <li>Handshakes are the most common greeting.</li>
+  <li>Wait for a woman to extend her hand first. </li>
+  <li>To rush a greeting is extremely rude; spend time inquiring about the other person&#39;s general well-being.</li>
+  <li>It is a good idea to lower your eyes when meeting someone who is older or more senior.</li>
+  <li>Titles are important. Use the honorific title plus any academic or professional title and the surname. Wait until invited before moving to a first-name basis. This is not a first name culture although that may be changing with people under the age of 35.</li>
+
+</ul>
+
+<a id="TableManners"></a>
+<h2>Table Manners </h2>
+<ul>
+  <li>Wash your hands before and after meals. Eat with your right hand only.</li>
+  <li> If provided with a fork or spoon, hold them in your right hand. Keep your left hand off bowls or serving items.</li>
+  <li>Remove your shoes before entering a home. When moving from one area to another, allow more senior members of your party to enter the room ahead of you.</li>
+  <li>Men, women, and children dine separately. Men are usually offered the best food first, then women, and finally children.</li>
+  <li>If eating on a mat or carpet, do not expose the sole of your feet; it is considered very rude.</li>
+  <li>If you are in a group or organized settings, eat everything on your plate as it is considered wasteful to leave food on your plate. However in many places, like Africa, when an adult eats, he should leave a little something for the kids in the house.</li>
+  <li>Except in a public restaurant, do not ask for uneaten food or leftovers to be taken home. NEVER do so when attending a formal dinner; the host may suggest it, but do not insist.
+ </li>
+
+</ul>
+
+
+<a id="Misc"></a>
+<h2>Miscellaneous</h2>
+<h3>Gifts</h3>
+<ul>
+  <li>If invited to dinner at someone&#39;s home, bring fruit, nuts, or chocolates for the host. A gift for the children is always a nice touch.</li>
+  <li>Gifts should be given using the right hand or both hands. Never use the left hand.</li>
+  <li>Gifts from a man to a woman must be said to come from the man&#39;s mother, wife, sister, or other female relative; never from the man himself.</li>
+  <li>Gifts should be wrapped although there are no cultural taboos concerning paper colour.</li>
+  <li>Gifts are not always opened when received.</li>
+</ul>
+
+</body>
+</html>

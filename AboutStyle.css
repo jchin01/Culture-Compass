@@ -1,0 +1,55 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+#container {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background: #FFF;
+  padding: 25px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  border-radius: 5px;
+  background-image: url("Countries/topography.png");
+  border: 5px solid #eee;
+}
+h1 {
+  color: #095256;
+}
+h2 {
+  font-size: 15pt;
+  margin-left: 40px;
+  margin-top: 30px;
+  color: #333;
+  border-bottom: 3px solid #E2856E;
+
+}
+.quote {
+  width: 60%;
+  font-size: 12.5pt;
+  font-style: italic;
+  margin: 0 auto;
+  color: #BA634E;
+}
+.credit {
+  color: #BA634E;
+}
+ul {
+  margin: 35px;
+  margin-top: 0px;
+  padding-left: 10px;
+  list-style-image: url('Countries/compass.png');
+}
+li {
+  margin: 15px;
+}
+.close {
+  float: right;
+  right: 0;
+  width: 20px;
+}
+.x {
+  text-decoration: none;
+  color: #095256;
+}

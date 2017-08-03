@@ -1,0 +1,76 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="boxstyle.css"/>
+  <script type="text/javascript" src="BoxScript.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+
+  <script>
+  $(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+  </script>
+
+</head>
+<body>
+<section id="Top">
+  <a href="#Top" class="return">&uarr; Return</a>
+<a href="#Communication" class="nav">Communication</a>
+<a href="#TableManners" class="nav">Table Manners</a>
+<a href="#Misc" class="nav">Miscellaneous</a>
+
+
+
+<a id="Communication">
+<h2>Communication</h2>
+<ul>
+  <li>The handshake is a common form of greeting.</li>
+  <li>Do not talk loudly in public. It&#39;s considered an "ugly American" trait. </li>
+  <li>Don&#39;t shout into your cell phone, and silence it in company. Cells are ubiquitous in France, but people tone them down in public.</li>
+  <li>Friends may greet each other by lightly kissing on the cheeks, once on the left cheek and once on the right cheek.</li>
+  <li>You are expected to say "bonjour" or "bonsoir" (good morning and good evening) with the honorific title Monsieur or Madame when entering a shop and "au revoir" (good-bye) when leaving.</li>
+  <li>The French value their privacy. Don’t ask personal questions related to occupation, salary, age, family or children unless you have a well-established friendship.</li>
+  <li>The French do not tell or like to hear jokes. They prefer intelligent and satirical wit. Funny stories of real life situations are appreciated.</li>
+</ul>
+
+<a id="TableManners"></a>
+<h2>Table Manners </h2>
+<ul>
+  <li> Keep your hands on the table at all times, but try to keep the elbows off. </li>
+  <li>Do not discuss business during dinner. Dinner is more of a social occasion and a time to enjoy good food, wine and discussion.</li>
+  <li>Do not ask for a martini or scotch before dinner -- they are viewed as palate numbing. </li>
+  <li>If invited to a large dinner party, especially in Paris, send flowers the morning of the occasion so that they may be displayed that evening. </li>
+  <li>Don&#39;t eat until your host says, "Bon app&eacute;tit!" (Enjoy your meal!).</li>
+  <li>Always keep the knife in your right hand, and the fork in your left. Lay the knife and fork parallel to each other on the right side of the plate once done with the meal. </li>
+  <li>You should not leave the table during a meal, which might very well last several hours. Plan on using the restroom before. </li>
+  <li>If you don&#39;t eat a certain food,  don&#39;t make a big fuss about it: no-one should comment as not to embarrass you, but if they do, say "c&#39;&eacute;tait d&eacute;licieux mais je n&#39;ai pas tr&eacute;s faim" (it was delicious, but I am not very hungry). </li>
+  <li>In France, women don&#39;t pour wine for themselves. The man sitting next to them does.If you are a man, do not serve yourself before offering the food to the woman sitting next to you.</li>
+  <li>Do not use your hands, try to use the fork and knife while eating with foods especially when eating cheese.</li>
+</ul>
+
+
+<a id="Misc"></a>
+<h2>Miscellaneous</h2>
+<h3>Gifts</h3>
+<ul>
+  <li>Flowers should be given in odd numbers but not 13, which is considered unlucky.</li>
+  <li>Some older French retain old-style prohibitions against receiving certain flowers: White lilies or chrysanthemums as they are used at funerals; red carnations as they symbolize bad will; any white flowers as they are used at weddings</li>
+  <li>Prohibitions about flowers are not generally followed by the young. When in doubt, it is always best to err on the side of conservatism.</li>
+  <li>If you give wine, make sure it is of the highest quality you can afford. The French appreciate their wines.</li>
+  <li>Gifts are usually opened when received.</li>
+</ul>
+
+</body>
+</html>

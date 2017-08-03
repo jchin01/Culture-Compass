@@ -1,0 +1,70 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="boxstyle.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script>
+  $(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+  </script>
+</head>
+<body>
+  <section id="Top"></section>
+    <a href="#Top" class="return">&uarr; Return</a>
+<a href="#Communication" class="nav">Communication</a>
+<a href="#TableManners" class="nav">Table Manners</a>
+<a href="#Misc" class="nav">Miscellaneous</a>
+
+<a id="Communication"></a>
+<h2>Communication</h2>
+<ul>
+  <li>When greeting someone in America, it is ideal to offer to shake hands as this is the form in which we say hello.</li>
+  <li>American people do not like too little space between themselves and their speaking partners, and they do not like to touch or be touched while having a conversation.</li>
+  <li>If we see Americans who form a circle with their thumb and index finger, they refer to something good, this signal means "OK," "yes," or "fine".</li>
+  <li>Yawning means tiredness, boredom, and it is impolite.</li>
+  <li>High five means "congratulations."</li>
+  <li>Rubbing the hands together means that the person is cold or feels impatient anticipation.</li>
+  <li>Another generally used gesture is whistling which is quite often used at sport events, performances, to gain attention from someone, or watching a pretty woman in the street.</li>
+  <li>In America, a thumbs up actually signifies "good job" or approval of something.</li>
+  <li>Do not stick out a middle finger as it expresses hatred for someone and is considered extremely offensive.</li>
+  <li>While in other countries tips are considered offensive due to the fact it may seem as an added incentive for doing their job, in America, tips are given out generously.</li>
+</ul>
+
+<a id="TableManners"></a>
+<h2>Table Manners </h2>
+<ul>
+  <li> Arriving Late is expected as Americans usually run behind schedule and the standard.</li>
+  <li>Altering a meal does not portray as rude, it is standard to ask for condiments in an American table setting.</li>
+  <li>Do not rest your elbows on a table.</li>
+  <li>The fork is held in the left hand facing down while the knife is held in the right hand. </li>
+  <li>Social meals are more about eating while chatting and talking hours over the food. </li>
+  <li>Feel free to refuse specific foods or drinks without offering an explanation. </li>
+  <li>Napkins, if provided, are placed on the lap.</li>
+  <li>A toast might take place at the start of a formal meal or for a special occasion/guest.</li>
+  <li>Americans socialise and do business over breakfast, lunch, and dinner.</li>
+</ul>
+
+
+<a id="Misc"></a>
+<h2>Miscellaneous</h2>
+<h3>Popular Festivals</h3>
+<ul>
+  <li>Art Basel displays leading galleries and artwork from all around the world. Located in Miami Beach, Florida, the festival usually takes place around December and lasts for a week.</li>
+  <li>The Coachella Valley Music and Arts Festival is an annual music and arts festival held at the Empire Polo Club in Indio, California. It&#39;s duration last for about two weeks.</li>
+  <li>Electric Daisy Carnival, commonly known as EDC, is one of the biggest electronic dance music festivals in the world with its flagship held annually every June in Las Vegas, Nevada. </li>
+  <li> San Diego Comic-Con International is a multi-genre entertainment and comic convention held annually in San Diego, California.</li>
+  <li>The San Francisco Lesbian, Gay, Bisexual, and Transgender Pride Celebration, usually known as San Francisco Pride, is a parade and festival held at the end of June each year in San Francisco, California, to celebrate the lesbian, gay, bisexual, and transgender (LGBT) people and their allies.</li>
+</ul>

@@ -1,0 +1,83 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="boxstyle.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script>
+  $(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+  </script>
+</head>
+<body>
+  <section id="Top"></section>
+    <a href="#Top" class="return">&uarr; Return</a>
+<a href="#Communication" class="nav">Communication</a>
+<a href="#TableManners" class="nav">Table Manners</a>
+<a href="#Misc" class="nav">Miscellaneous</a>
+
+
+
+<a id="Communication"></a>
+<h2>Communication</h2>
+<ul>
+  <li>There are several greeting styles in South Africa depending upon the ethnic heritage of the person you are meeting.
+</li>
+
+  <li>When dealing with foreigners, most South Africans shake hands while maintaining eye contact and smiling.
+ </li>
+
+  <li>Some women do not shake hands and merely nod their head, so it is best to wait for a woman to extend her hand.
+</li>
+  <li>Men may kiss a woman they know well on the cheek in place of a handshake. Greetings are leisurely and include time for social discussion and exchanging pleasantries.
+</li>
+
+</ul>
+
+<a id="TableManners"></a>
+<h2>Table Manners </h2>
+<ul>
+  <li> Arrive on time if invited to dinner.
+</li>
+  <li>Contact the hostess ahead of time to see if she would like you to bring a dish.
+</li>
+  <li>Wear casual clothes. This may include jeans or pressed shorts. It is a good idea to check with the hosts in advance.
+</li>
+  <li>In Johannesburg, casual is dressier than in other parts of the country. Do not wear jeans or shorts unless you have spoken to the hosts.
+</li>
+  <li>Offer to help the hostess with the preparation or clearing up after a meal is served.
+</li>
+
+</ul>
+
+
+<a id="Misc"></a>
+<h2>Miscellaneous</h2>
+<h3>Gifts</h3>
+<ul>
+  <li>In general, South Africans give gifts for birthdays and Christmas.
+</li>
+  <li>Two birthdays - 21 and 40 - are often celebrated with a large party in which a lavish gift is given. It is common for several friends to contribute to this gift to help defray the cost.
+</li>
+  <li>If you are invited to a South African&#39;s home, bring flowers, good quality chocolates, or a bottle of good South African wine to the hostess.
+</li>
+  <li>Wrapping a gift nicely shows extra effort.
+</li>
+  <li>Gifts are opened when received.
+</li>
+</ul>
+
+</body>
+</html>
